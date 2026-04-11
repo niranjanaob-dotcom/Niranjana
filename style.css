@@ -1,0 +1,38 @@
+.Sample{
+    display: flex;
+    flex-direction:column;
+    height:100vh ;
+    gap: 10px;
+}
+header{
+    background: #c62d25;
+    color: rgb(191, 230, 16);
+    height: 100px;
+}
+footer{
+    background-color: #a94545;
+    color: rgb(236, 226, 33);
+    height: 100px;
+    text-align: justify;
+}
+.Maincontainer{
+display: flex;
+flex: 1;
+gap: 10px;
+}
+nav{
+    width: 20%;
+    background-color: rgb(123, 202, 33);
+    color: rgb(0, 0, 0);
+}
+main{
+    flex: 1;
+    width: 20%;
+    background-color: rgb(38, 115, 182);
+    color: rgb(0, 0, 0);
+}
+aside{
+    width: 20%;
+    background-color: rgb(177, 184, 47);
+    color: black;
+}
